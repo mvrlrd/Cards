@@ -12,7 +12,10 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 rootProject.name = "Cards"
-include(":app")
- 
+
+include(":modules:app")
+include(":modules:main")
+include(":modules:features:category")
