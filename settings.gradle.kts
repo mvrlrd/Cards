@@ -15,6 +15,7 @@ dependencyResolutionManagement {
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 rootProject.name = "Cards"
+
 include(":modules:app")
 include(":modules:main")
 include(":modules:features:category")
